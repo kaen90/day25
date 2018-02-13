@@ -1,0 +1,72 @@
+*{
+	margin: 0;
+	padding: 0;
+	color: #171717;
+}
+body{
+	min-width: 100%;
+	min-height: 100%;
+	background-color: #ffffff;
+	position: relative;
+}
+.container{
+	width: 70%;
+	position: absolute;
+	top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.page-header{
+	padding-bottom: 20px;
+	padding-top: 20px;
+}
+.page-header .title{
+	font: 400 42px/1.0 "Playfair+Display";
+	letter-spacing: -2px;
+}
+.main-part{
+	padding-bottom: 20px;
+	padding-top: 20px;
+}
+.main-part .part1{
+	margin-bottom: 30px;
+}
+.main-part .first-letter{
+	float: left;
+	font: 400 110px/1.0 "Playfair+Display";
+	padding: 0;
+	margin: 0;
+	margin-right: 30px;
+	text-align: ;
+
+}
+.main-part .paragraf{
+	font: 400 18px/1.8 "Lato";
+}
+.main-part .part2{
+	margin-bottom: 30px;
+}
+.bloquote{
+	padding-bottom: 30px;
+	padding-top: 30px;
+	padding-left: 50px;
+}
+.bloquote .coment{
+	font: 400 24px/1.4 "Lato";
+}
+.btn{
+	width: 260px;
+	box-sizing: border-box;
+	border: 2px solid #eaa258;
+	vertical-align: middle;
+	text-align: center;
+	padding: 20px;
+	font: 700 18px/1.8 "Lato";
+}
+.btn:hover{
+	border-color: #d38330;
+}
+.btn a{
+	color: #eaa258;
+	text-decoration: none;
+}
